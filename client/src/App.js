@@ -3,7 +3,7 @@ import './App.css';
 import socketIOClient from 'socket.io-client';
 
 
-const ENDPOINT = "http://localhost:4000";
+const ENDPOINT = window.location.hostname;
 
 
 function App() {
